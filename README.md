@@ -59,7 +59,7 @@ Se elimina el metodo `properties()`
 #####Entity Manager 
 
 En JPA no se usa Session se configura Entity Manager obtenido de `localContainerEntityManagerFactoryBean()`
-. Si se obtiene la session apartir de `LocalSessionFactoryBean` se la saldra un Excepcion, este mismo Bean es usado
+. Si se obtiene la session apartir de `LocalSessionFactoryBean` lanzara un Excepcion, este mismo Bean es usado
 en la anotacion `@EnableJpaRepositories`.
 
 ````java
